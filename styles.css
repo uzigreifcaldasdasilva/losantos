@@ -4,7 +4,6 @@
 
 
 
-
 body{
 	background-color: #85afd9;
     font-family: Gill Sans;
@@ -16,10 +15,24 @@ h1{
 	margin: 0;	
 }
 
+
+
 .title-wrapper{
 	position: relative;
 }
+
+.music{
+	position: fixed;
+	z-index: 5;
+	width: 11vw;
+	background-color: #DA7521;
+	padding: 1vw;
+	border: 2px solid black;
+
+}
  
+
+
 .one{
 	padding: 50px;
 	display: inline-block;
@@ -27,6 +40,7 @@ h1{
 	color: black;
 	background-image: url('images/background.jpg');
 	background-size: cover;
+	animation: animation 100s linear infinite;
 }
 
 
@@ -116,6 +130,8 @@ h3{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 
 
 }
@@ -166,6 +182,8 @@ h3{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 
 
 }
@@ -281,6 +299,8 @@ h5{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 }
 
 .seven1{
@@ -315,6 +335,8 @@ h5{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 }
 
 .ten1{
@@ -408,6 +430,8 @@ h5{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 }
 
 .thirdteen1{
@@ -469,6 +493,8 @@ h5{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 }
 
 .sixteen1{
@@ -500,6 +526,8 @@ h5{
 	width: 100%;
 	background-image: url('images/background.jpg');
 	border: 2px solid black;
+	animation: animation 100s linear infinite;
+
 
 }
 
@@ -554,4 +582,8 @@ h5{
 
 }
 
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
 
