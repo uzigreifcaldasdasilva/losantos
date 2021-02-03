@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 
-
+@font-face{
+	font-family: "Gill";
+	src: url('fonts/Gill.woff') format('woff');
+}
 
 body{
 	background-color: #85afd9;
-    font-family: Gill Sans;
-	
+    font-family: "Gill";
+
 }
 
 h1{
@@ -260,8 +263,8 @@ img{
 .tress{
 	position: absolute;
 	z-index: 1;
-	top: 10px;
-	left: 10px;
+	top: 5px;
+	left: 5px;
 	margin: 0;
 
 }
